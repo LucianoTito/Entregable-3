@@ -1,0 +1,44 @@
+.location{
+    background-color: #062226;
+    box-shadow: 1px 1px 5px #000;
+    padding:  1em 1.5em 1.5em;
+    margin-bottom: 4em;
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: .5em;
+}
+
+.location:hover{
+    box-shadow: 0 0 20px 4px rgba(6, 161, 6, 0.5);
+  transform: scale(1.05);
+  transition: box-shadow 0.3s ease-in-out, transform 0.5s ease-in-out;
+}
+
+.location__name{
+    text-align: center;
+    margin-bottom: .5em;
+    color:  rgb(113, 167, 33);
+    font-size:xx-large;
+    
+
+}
+
+.location__list{
+    display: flex;
+    justify-content: space-between;
+    gap: 1.5em;
+}
+
+.location__item{
+    display: grid;
+    gap: .3em;
+    text-align: center;
+    font-weight: 600;
+    color: #aaa;
+}
+
+.location__label{
+    font-weight: 700;
+    color: #fff;
+}
